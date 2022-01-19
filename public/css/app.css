@@ -35,6 +35,20 @@
 
 .main-header ul li a {
   text-decoration: none;
-  color: #5a5959;
+  color: #303030;
+}
+
+.main-footer {
+  background-color: #303030;
+}
+
+.main-footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer div ul {
+  display: flex;
+  list-style: none;
 }
 
