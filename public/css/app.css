@@ -4,3 +4,37 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1170px;
+  padding: 0 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-header {
+  display: flex;
+  padding: 20px;
+}
+
+.main-header .logo {
+  padding-right: 40px;
+}
+
+.main-header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.main-header ul li {
+  padding: 0 20px;
+}
+
+.main-header ul li a {
+  text-decoration: none;
+  color: #5a5959;
+}
+
