@@ -1,1 +1,7 @@
-//
+//APP MAIN STYLE
+
+//Non serve estensione, si aspetta scss di default
+//Importiamo i partials e default nel main scss
+@import "partials/vars";
+@import "partials/default";
+@import "partials/utilities";
