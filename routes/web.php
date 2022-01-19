@@ -236,7 +236,7 @@ Route::get('/comics', function () {
     ];
     return view('comics',[
     //Passo i dati a blade con array associativo, associo a cards la mia lista di prima
-        'comics'=>$comics,
+        'cards'=>$comics,
     ]);
 })->name('comics');
 
