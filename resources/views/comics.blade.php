@@ -8,12 +8,14 @@
 <div class="container">
     <div class="cards">
     @foreach($cards as $comic )
+
     <div class="card">
     <div>
         <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+    </div>
         <h3>{{$comic['series']}}</h3>
     </div>
-    </div>
+    
     @endforeach
     </div>
 </div>
