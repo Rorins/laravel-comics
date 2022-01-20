@@ -1,4 +1,27 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
+    margin: 10px;
+    div {
+        width: 190px;
+        margin: 10px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.button-section {
+    display: flex;
+    justify-content: center;
+    button {
+        background-color: $primary-color;
+        color: white;
+        padding: 10px 45px;
+        border: none;
+        margin: 20px 0;
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
