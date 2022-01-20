@@ -1,13 +1,27 @@
+.main-comics {
+    background-color: $secondary-color;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
-    div {
-        width: 190px;
-        margin: 10px;
-        img {
-            width: 100%;
-            object-fit: cover;
+    color: white;
+    padding: 50px 0;
+    .card {
+        margin: 30px 10px;
+
+        div {
+            height: 190px;
+            width: 190px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top;
+            }
+            h3 {
+                margin: 4px 0;
+            }
         }
     }
 }

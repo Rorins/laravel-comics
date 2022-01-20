@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
 
 .container {
@@ -37,19 +38,34 @@
   background: #303030;
 }
 
+.main-comics {
+  background-color: #303030;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
+  color: white;
+  padding: 50px 0;
 }
-.cards div {
+.cards .card {
+  margin: 30px 10px;
+}
+.cards .card div {
+  height: 190px;
   width: 190px;
-  margin: 10px;
 }
-.cards div img {
+.cards .card div img {
   width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.cards .card div h3 {
+  margin: 4px 0;
 }
 
 .button-section {
