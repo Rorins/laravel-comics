@@ -3,9 +3,24 @@
     div {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        button {
+            background-color: $secondary-color;
+            border: $primary-color 2px solid;
+            color: white;
+            padding: 5px;
+        }
         ul {
             display: flex;
             list-style: none;
+            li {
+                padding: 10px;
+            }
+            .follow {
+                text-decoration: none;
+                color: $primary-color;
+            }
         }
     }
 }

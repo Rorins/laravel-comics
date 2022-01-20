@@ -18,37 +18,53 @@
   display: flex;
   padding: 20px;
 }
-
 .main-header .logo {
   padding-right: 40px;
 }
-
 .main-header ul {
   list-style: none;
   display: flex;
   align-items: center;
 }
-
 .main-header ul li {
   padding: 0 20px;
 }
-
 .main-header ul li a {
   text-decoration: none;
   color: #303030;
+}
+.main-header ul li a.active {
+  background: #303030;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-footer {
   background-color: #303030;
 }
-
 .main-footer div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 100px;
 }
-
+.main-footer div button {
+  background-color: #303030;
+  border: #0182f9 2px solid;
+  color: white;
+  padding: 5px;
+}
 .main-footer div ul {
   display: flex;
   list-style: none;
 }
-
+.main-footer div ul li {
+  padding: 10px;
+}
+.main-footer div ul .follow {
+  text-decoration: none;
+  color: #0182f9;
+}
