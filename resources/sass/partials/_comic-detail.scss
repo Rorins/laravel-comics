@@ -1,4 +1,5 @@
 .comic-detail {
+    position: relative;
     .jumbo {
         height: 420px;
         border-bottom: 80px solid $primary-color;
@@ -9,18 +10,27 @@
             object-position: top;
         }
     }
-    h1 {
-        text-transform: uppercase;
-        color: #3e5969;
+    figure {
+        position: absolute;
+        top: 100px;
+        img {
+            border: 1px solid white;
+        }
     }
-    .availability {
-        height: 30px;
-        background-color: #55ba58;
-    }
-    .comic-info {
+    .comic-main {
         margin: 70px;
-        div {
-            padding-right: 70px;
+        .comic-info {
+            margin: 30px;
+        }
+        .detail-box {
+            height: 30px;
+            background-color: #55ba58;
+            display: flex;
+            justify-content: space-between;
+        }
+        h1 {
+            text-transform: uppercase;
+            color: #3e5969;
         }
         h3 {
             color: gray;

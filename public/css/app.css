@@ -123,6 +123,9 @@
   color: #0182f9;
 }
 
+.comic-detail {
+  position: relative;
+}
 .comic-detail .jumbo {
   height: 420px;
   border-bottom: 80px solid #0182f9;
@@ -135,20 +138,29 @@
   -o-object-position: top;
      object-position: top;
 }
-.comic-detail h1 {
+.comic-detail figure {
+  position: absolute;
+  top: 100px;
+}
+.comic-detail figure img {
+  border: 1px solid white;
+}
+.comic-detail .comic-main {
+  margin: 70px;
+}
+.comic-detail .comic-main .comic-info {
+  margin: 30px;
+}
+.comic-detail .comic-main .detail-box {
+  height: 30px;
+  background-color: #55ba58;
+  display: flex;
+  justify-content: space-between;
+}
+.comic-detail .comic-main h1 {
   text-transform: uppercase;
   color: #3e5969;
 }
-.comic-detail .availability {
-  height: 30px;
-  background-color: #55ba58;
-}
-.comic-detail .comic-info {
-  margin: 70px;
-}
-.comic-detail .comic-info div {
-  padding-right: 70px;
-}
-.comic-detail .comic-info h3 {
+.comic-detail .comic-main h3 {
   color: gray;
 }

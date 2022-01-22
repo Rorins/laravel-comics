@@ -13,14 +13,17 @@
     </figure>
 
 {{-- TITLES --}}
-<div class="comic-info d-flex">
-<div>
+<div class="comic-main d-flex">
+<div class="comic-info"> 
     <h1>{{$comic['title']}}</h1>
-<div class="availability">
+<div class="detail-box">
     <span>U.S Price:{{$comic['price']}}</span>
+<div>
     <span>AVAILABLE</span>
     <span>Check Availability</span>
 </div>
+</div>
+
 {{-- DESCRIPTION --}}
     <p>{{$comic['description']}}</p>
 </div>
