@@ -16,6 +16,8 @@
             il metodo route accetta come al solito il secondo parametro che qua è id che ha come
             valore la posizione dell'array dei comics 
             '/comic/{id}' sarà il nostro percorso--}}
+            {{-- all'id passo il valore come in un array con chiave associativa:
+            è come id=1 o id=2 --}}
         <a href="{{route('comic-detail', ['id' => $index])}}">
     <div>
         {{-- Le graffe sono come un echo --}}
