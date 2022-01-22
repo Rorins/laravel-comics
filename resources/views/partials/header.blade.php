@@ -1,5 +1,6 @@
 <header class="main-header container">
     <a class="logo" href="{{route('home')}}">
+        {{-- asset parte sempre dalla cartella public --}}
         <img src="{{asset('images/dc-logo.png')}}" alt="DC LOGO"></a>
     <ul>
         {{-- from web.php name() --}}
