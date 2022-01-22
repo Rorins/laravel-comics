@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+.d-flex {
+  display: flex;
+}
+
 .main-header {
   display: flex;
   padding: 20px;
@@ -113,4 +117,28 @@
 .main-footer div ul .follow a {
   text-decoration: none;
   color: #0182f9;
+}
+
+.comic-detail .jumbo {
+  height: 420px;
+  border-bottom: 80px solid #0182f9;
+}
+.comic-detail .jumbo img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.comic-detail h1 {
+  text-transform: uppercase;
+  color: #3e5969;
+}
+.comic-detail .availability {
+  height: 30px;
+  background-color: #55ba58;
+}
+.comic-detail .comic-info {
+  margin: 70px;
 }

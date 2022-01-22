@@ -1,0 +1,23 @@
+.comic-detail {
+    .jumbo {
+        height: 420px;
+        border-bottom: 80px solid $primary-color;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+    h1 {
+        text-transform: uppercase;
+        color: #3e5969;
+    }
+    .availability {
+        height: 30px;
+        background-color: #55ba58;
+    }
+    .comic-info {
+        margin: 70px;
+    }
+}

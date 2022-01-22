@@ -1,19 +1,37 @@
 @extends('layouts.main')
 
 @section('main-content')
-
+{{-- JUMBO --}}
 <section class="comic-detail">
-    <div>
+    <div class="jumbo">
         <img src="{{asset('images/jumbotron.jpg')}}" alt="DC LOGO">
     </div>
+{{-- COMIC SECTION --}}
 <div class="container">
     <figure>
         <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
     </figure>
+
+{{-- TITLES --}}
+<div class="comic-info d-flex">
+<div>
     <h1>{{$comic['title']}}</h1>
-    <h2>U.S Price:{{$comic['price']}}</h2>
+<div class="availability">
+    <span>U.S Price:{{$comic['price']}}</span>
+    <span>AVAILABLE</span>
+    <span>Check Availability</span>
+</div>
+
+{{-- DESCRIPTION --}}
     <p>{{$comic['description']}}</p>
-    <img src="{{asset('images/adv.jpg')}}" alt="DC LOGO">
+</div>
+
+<div class="img-box">
+<h3>ADVERTISEMENT</h3>
+<img src="{{asset('images/adv.jpg')}}" alt="DC LOGO">
+</div>
+
+</div>
 </div>
 </section>
 
