@@ -21,13 +21,12 @@
     <span>AVAILABLE</span>
     <span>Check Availability</span>
 </div>
-
 {{-- DESCRIPTION --}}
     <p>{{$comic['description']}}</p>
 </div>
 
 <div class="img-box">
-<h3>ADVERTISEMENT</h3>
+<h3 class="text-right">ADVERTISEMENT</h3>
 <img src="{{asset('images/adv.jpg')}}" alt="DC LOGO">
 </div>
 

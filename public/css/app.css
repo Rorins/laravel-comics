@@ -11,6 +11,10 @@
   padding: 0 20px;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-center {
   text-align: center;
 }
@@ -141,4 +145,10 @@
 }
 .comic-detail .comic-info {
   margin: 70px;
+}
+.comic-detail .comic-info div {
+  padding-right: 70px;
+}
+.comic-detail .comic-info h3 {
+  color: gray;
 }

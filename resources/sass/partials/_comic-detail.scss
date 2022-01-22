@@ -19,5 +19,11 @@
     }
     .comic-info {
         margin: 70px;
+        div {
+            padding-right: 70px;
+        }
+        h3 {
+            color: gray;
+        }
     }
 }
